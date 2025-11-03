@@ -7,7 +7,7 @@ import './index.css';
 
 createRoot(document.getElementById('root')!).render(
     <StrictMode>
-        <TonConnectUIProvider manifestUrl="/tonconnect-manifest.json">
+        <TonConnectUIProvider manifestUrl="https://tonapi-dapp-example.pages.dev/tonconnect-manifest.json">
             <App />
         </TonConnectUIProvider>
     </StrictMode>
